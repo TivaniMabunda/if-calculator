@@ -15,31 +15,31 @@ function submitFunction() {
     console.log(inputBox3);
     console.log(inputBox3value);
 
-    if (inputBox3value === '+') {
-        
+    if (inputBox3value === "+") {
+      solution = inputBox1value + inputBox2value ;
     }
 
     if (inputBox3value === '-') {
-        
+        solution = inputBox1value - inputBox2value;     
     }
 
     if (inputBox3value === '*') {
-        
+        solution = inputBox1value * inputBox2value;
     }
 
     if (inputBox3value === '**') {
-        
+        solution = inputBox1value ** inputBox2value; 
     }
 
     if (inputBox3value === '/') {
-        
+        solution = inputBox1value / inputBox2value;
     }
 
     if (inputBox3value === '%') {
-        
+        solution = inputBox1value % inputBox2value;
     }
 
     else{
-        alert("Entered Value invalid")
+        alert("Entered Value Invalid")
     }
 }
